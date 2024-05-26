@@ -69,6 +69,12 @@ This is a backend system for a CRM application with advanced features such as us
 - `GET /customers/:id/interactions` - Get interactions for a customer
 - `GET /interactions/stats` - Get interaction statistics
 
+![System Diagram](/Users/vatsal/Desktop/mycmr/pictures/2.png)
+
+![Database Schema Design](/Users/vatsal/Desktop/mycmr/pictures/1.png)
+![](/Users/vatsal/Desktop/mycmr/pictures/3.png)
+
+
 
 ### Running Tests
 
