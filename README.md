@@ -69,10 +69,10 @@ This is a backend system for a CRM application with advanced features such as us
 - `GET /customers/:id/interactions` - Get interactions for a customer
 - `GET /interactions/stats` - Get interaction statistics
 
-![System Diagram](/Users/vatsal/Desktop/mycmr/pictures/2.png)
+![System Diagram](pictures/1.png)
+![Database Schema Design](pictures/2.png)
+![](pictures/3.png)
 
-![Database Schema Design](/Users/vatsal/Desktop/mycmr/pictures/1.png)
-![](/Users/vatsal/Desktop/mycmr/pictures/3.png)
 
 
 
@@ -82,7 +82,4 @@ To run tests, use the following command:
 
 ```bash
 go test ./...
-
-
-
 
