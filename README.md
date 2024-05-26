@@ -23,8 +23,8 @@ This is a backend system for a CRM application with advanced features such as us
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/crm-backend.git
-    cd crm-backend
+    git@github.com:vatsalcode/mycmr.git
+    cd mycmr
     ```
 
 2. Install dependencies:
