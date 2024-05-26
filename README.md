@@ -69,38 +69,6 @@ This is a backend system for a CRM application with advanced features such as us
 - `GET /customers/:id/interactions` - Get interactions for a customer
 - `GET /interactions/stats` - Get interaction statistics
 
-### System Diagram
-+-----------------------+      +-----------------------+
-|                       |      |                       |
-|       Client          |      |      Admin            |
-|   (Frontend App)      |      |  (Frontend App)       |
-|                       |      |                       |
-+-----------------------+      +-----------------------+
-             |                            |
-             |                            |
-             |                            |
-             v                            v
-    +-----------------------------+  +-----------------------------+
-    |       Authentication        |  |       User Management       |
-    |          Service            |  |         Service             |
-    +-----------------------------+  +-----------------------------+
-                      |                            |
-                      |                            |
-                      |                            |
-                      v                            v
-              +---------------------------------------------+
-              |                  API Gateway                |
-              |      (Gin Framework - Backend API)          |
-              +---------------------------------------------+
-                              |
-                              |
-                              v
-                  +-----------------------------+
-                  |          MongoDB            |
-                  | (Database for storing data) |
-                  +-----------------------------+
-
-
 
 ### Running Tests
 
